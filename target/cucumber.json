@@ -1,0 +1,200 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12970538823,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initialsTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login to application with valid credentials",
+        "description": "",
+        "id": "login-functionality;login-to-application-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1004329666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6021459262,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to CloodOn login page",
+            "match": {
+              "location": "LoginStepdefs.i_navigate_to_CloodOn_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 394325896,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter username and password",
+            "match": {
+              "location": "LoginStepdefs.enter_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2024373076,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginStepdefs.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10142731509,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to see the home page",
+            "match": {
+              "location": "LoginStepdefs.i_should_be_able_to_see_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TC1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9176431599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initialsTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Login to application with credentials from feature file",
+        "description": "",
+        "id": "login-functionality;login-to-application-with-credentials-from-feature-file",
+        "after": [
+          {
+            "result": {
+              "duration": 1022649312,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5923035121,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I navigate to \"http://staging.cloodon.com\" login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://staging.cloodon.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginStepdefs.i_navigate_to_http_staging_cloodon_com_login_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 325299728,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter username as \"prabhath@cloodon.com\" and password as \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prabhath@cloodon.com",
+                  "offset": 19
+                },
+                {
+                  "val": "password",
+                  "offset": 58
+                }
+              ],
+              "location": "LoginStepdefs.enter_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2085189355,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginStepdefs.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10110650924,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be able to see the home page",
+            "match": {
+              "location": "LoginStepdefs.i_should_be_able_to_see_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@TC2"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "This feature deals with the login functionality of the CloodOn application",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "CloodOnLogin.feature"
+  }
+]
